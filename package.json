@@ -1,0 +1,22 @@
+{
+  "name": "bookshelfapitestcollectionandenvironment",
+  "version": "1.0.0",
+  "description": "\"Bookshelf API Test Collection\" adalah kumpulan pengujian API yang dirancang untuk memudahkan evaluasi dan validasi fitur-fitur dari aplikasi bookshelf",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "api",
+    "bookshelf",
+    "testing"
+  ],
+  "author": "Rifky Putra Ramadhan",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "dotenv": "^16.4.5",
+    "nanoid": "^5.0.7"
+  }
+}
